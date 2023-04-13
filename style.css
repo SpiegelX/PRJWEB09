@@ -2,7 +2,7 @@ body {
   background-image: url("image/3321.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: auto;
+  background-size: cover;
   background-color: #cccccc;
   font-family: Assistant, sans-serif;
   display: flex;
