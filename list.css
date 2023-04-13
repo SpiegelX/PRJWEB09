@@ -13,7 +13,7 @@ body {
 .header {
     background-color: #9bffa3;
     background-image: linear-gradient(315deg, #4B79A1 0%, #283E51 74%);
-    height: 7rem;
+    height: 5rem;
     position: relative;
     background-size: cover;
     color: white;
