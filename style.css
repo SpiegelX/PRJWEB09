@@ -1,12 +1,12 @@
 body {
   background-image: url("image/3321.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
+/*   background-repeat: no-repeat; */
+/*   background-position: center center; */
   background-size: cover;
-  background-color: #cccccc;
+/*   background-color: #cccccc; */
   font-family: Assistant, sans-serif;
   display: flex;
-  min-height: 99vh;
+  min-height: 100vh;
 }
 .login {
   color: white;
