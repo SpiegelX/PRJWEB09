@@ -1,3 +1,10 @@
+body {
+  background: #ABCDEF;
+  display: flex;
+  min-height: 90vh;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+}
 .container-fluid {
     font-weight:bolder; 
     text-align: center;
@@ -6,11 +13,12 @@
 .header {
     background-color: #9bffa3;
     background-image: linear-gradient(315deg, #4B79A1 0%, #283E51 74%);
-    height: 10rem;
+    height: 7rem;
     position: relative;
     background-size: cover;
     color: white;
     margin-bottom: 1rem;
+    width: 100vw;
   }
   .form__input {
     font-family: 'Roboto', sans-serif;
@@ -25,12 +33,10 @@
     transition: all 0.3s;
   }
 .btn {
-    margin-left: 1rem;
     width: 10em;
     height: 6em;
     background-color: rgb(255, 255, 255);
     border-radius: 5rem;
-
 }
 .btn:hover {
     background-color: rgb(39, 39, 39);
@@ -170,8 +176,8 @@ input[type=text] {
     transform: translateY(0);
   }
   .btn-login {
-    background: none;
-    text-decoration: none;
+    /* background: none; */
+    /* text-decoration: none; */
     color: white;
     box-shadow: 0px 0px 0px 2px white;
     border-radius: 3px;
@@ -179,8 +185,9 @@ input[type=text] {
     transition: 0.5s;
     font-size: 20px;
   }
-  btn-login:hover {
+  .btn-login:hover {
     background: white;
+    text-decoration: none;
     color: dimgray;
     transition: 0.5s;
   }
